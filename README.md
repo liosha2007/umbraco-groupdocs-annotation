@@ -1,27 +1,26 @@
-umbraco-groupdocs-annotation
-============================
+GroupDocs Annotation plugin for Umbraco CMS
+==================================
+ 
+### Installation
+1. Install [Umbraco CMS](http://umbraco.org/download) web site where plugin will be used.
+2. Install Macro using of plugin source code
+    1. Copy `Groupdocs.EmbedAnnotation.dll` to the root `bin` directory of the web site.
+    2. Copy `EmbedAnnotation.ascx` to the root `usercontrols` directory of the web site.
+    3. Go to the Developer tab of admin umbraco.
+    4. Create new Macro.
+    5. Choose .NET User Control as `/usercontrols/EmbedAnnotation.ascx` in Main Properties of new Macro - Click Save button. 
+    6. Click Browse Properties button below and popup with plugin Properties (Guid, FrameWidth, FrameHeight) will be opened. Confirm suggested parameters.
+    7. Reload the page and go to Parameters tab of created macro. You will see that Parameters were added.
+3. Use the macro at web pages as `<umbraco:macro Alias="[Embed Document Annotation Alias]" Guid="[Guid]" FrameWidth="[Width]" FrameHeight="[Height]" runat="server"></umbraco:macro>` (for instance, [Width]=600, [Height]=500). Note, Alias is the alias of macro.
+  
+How to get [Document ID (GUID)](http://groupdocs.com/docs/pages/viewpage.action?pageId=1409575)
 
-GroupDocs Annotation plugin for Umbraco
+###[Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs](http://groupdocs.com)
+1. [Sign documents online with GroupDocs Signature](http://groupdocs.com/apps/signature)
+2. [PDF, Word and Image Annotation with GroupDocs Annotation](http://groupdocs.com/apps/annotation)
+3. [Online DOC, DOCX, PPT Document Comparison with GroupDocs Comparison](http://groupdocs.com/apps/comparison)
+4. [Online Document Management with GroupDocs Dashboard](http://groupdocs.com/apps/dashboard)
+5. [Doc to PDF, Doc to Docx, PPT to PDF, and other Document Conversions with GroupDocs Viewer](http://groupdocs.com/apps/viewer)
+6. [Online Document Automation with GroupDocs Assembly](http://groupdocs.com/apps/assembly)
 
-
-Installation
-
-Install Umbraco CMS web site (http://umbraco.org/download) where plugin will be used.
-
-Install Macro. 
-
-Package installation:
-
-Go to the Developer tab > Packages of admin umbraco. Click Install local package, choose package and aceept risk and license.
-
-Use Insert Macro in the content editor, see screenshots for mroe details
-
-
-###Sign, Manage, Annotate, Assemble, Compare and Convert Documents with GroupDocs
-* [Annotate PDF, Word, Excel, Powerpoint and Images with GroupDocs Annotation](http://groupdocs.com/apps/annotation)
-* [Download Annotation plugin package for Umbraco here](http://our.umbraco.org/projects/collaboration/groupdocs-word,-excel,-powerpoint,-image-and-pdf-annotate)
-* [See source code for GroupDocs Annotation plugin for Umbraco CMS](https://github.com/groupdocs/umbraco-groupdocs-annotation-source)
-
-
-
-###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
+###Created by [GroupDocs Marketplace Team]( http://groupdocs.com/marketplace/ ).
